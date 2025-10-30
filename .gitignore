@@ -43,3 +43,5 @@ logs/
 # Claude Code (optional - remove if you want to track)
 .claude/
 
+# Minecraft
+run

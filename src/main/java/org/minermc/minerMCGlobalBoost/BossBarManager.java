@@ -29,7 +29,7 @@ public class BossBarManager {
             return;
         }
 
-        String title = String.format("§6§l⛏ MINING DROPS §e%dx §6ACTIVE §a[%s]",
+        String title = String.format("§6§l⛏ ᴍɪɴɪɴɢ ᴅʀᴏᴘs §e%dx §6ᴀᴄᴛɪᴠᴇ §a[%s]",
                                      multiplier, timeRemaining);
 
         if (bossBar == null) {
