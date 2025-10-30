@@ -1,0 +1,10 @@
+# MinerMCGlobalBoost Configuration
+
+# Current boost multiplier (1 = off, 2 = 2x, 3 = 3x, 4 = 4x)
+boost-multiplier: 1
+
+# Name of the player/console who activated the boost
+boost-activator: "Server"
+
+# Remaining time in seconds (0 = no active boost)
+boost-remaining-seconds: 0

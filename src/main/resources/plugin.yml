@@ -1,0 +1,31 @@
+name: MinerMCGlobalBoost
+version: '1.0-SNAPSHOT'
+main: org.minermc.minerMCGlobalBoost.MinerMCGlobalBoost
+api-version: '1.21'
+authors: [ Jason Zhao ]
+commands:
+  boost:
+    description: Manage global mining boost multipliers with timers
+    usage: /boost <2x|3x|4x> <minutes> | /boost off
+    permission: minermc.boost.use
+    permission-message: You don't have permission to use this command
+  giveboost:
+    description: Give boosts to players
+    usage: /giveboost <player> <2x|3x|4x> <30m|1h>
+    permission: minermc.giveboost.use
+    permission-message: You don't have permission to use this command
+  useboost:
+    description: Use a boost from your inventory
+    usage: /useboost <2x|3x|4x> <30m|1h> | /useboost to view inventory
+    permission: minermc.useboost.use
+    permission-message: You don't have permission to use this command
+permissions:
+  minermc.boost.use:
+    description: Allows using the boost command
+    default: op
+  minermc.giveboost.use:
+    description: Allows giving boosts to players
+    default: op
+  minermc.useboost.use:
+    description: Allows using boosts from inventory
+    default: true
