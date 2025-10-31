@@ -1,7 +1,8 @@
-package org.minermc.minerMCGlobalBoost;
+package org.minermc.minerMCGlobalBoost.manager;
 
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.configuration.file.YamlConfiguration;
+import org.minermc.minerMCGlobalBoost.MinerMCGlobalBoost;
 
 import java.io.File;
 import java.io.IOException;

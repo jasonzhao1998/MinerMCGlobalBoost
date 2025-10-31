@@ -1,4 +1,6 @@
-package org.minermc.minerMCGlobalBoost;
+package org.minermc.minerMCGlobalBoost.command;
+
+import org.minermc.minerMCGlobalBoost.MinerMCGlobalBoost;
 
 import org.bukkit.ChatColor;
 import org.bukkit.command.Command;

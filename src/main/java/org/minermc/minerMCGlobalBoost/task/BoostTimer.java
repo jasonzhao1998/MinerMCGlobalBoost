@@ -1,7 +1,8 @@
-package org.minermc.minerMCGlobalBoost;
+package org.minermc.minerMCGlobalBoost.task;
 
 import org.bukkit.ChatColor;
 import org.bukkit.scheduler.BukkitRunnable;
+import org.minermc.minerMCGlobalBoost.MinerMCGlobalBoost;
 
 public class BoostTimer extends BukkitRunnable {
 

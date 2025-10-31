@@ -1,4 +1,4 @@
-package org.minermc.minerMCGlobalBoost;
+package org.minermc.minerMCGlobalBoost.listener;
 
 import org.bukkit.GameMode;
 import org.bukkit.Material;
@@ -10,6 +10,7 @@ import org.bukkit.event.EventPriority;
 import org.bukkit.event.Listener;
 import org.bukkit.event.block.BlockBreakEvent;
 import org.bukkit.inventory.ItemStack;
+import org.minermc.minerMCGlobalBoost.MinerMCGlobalBoost;
 
 import java.util.Collection;
 

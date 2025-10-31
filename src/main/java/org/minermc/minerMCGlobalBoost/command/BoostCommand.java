@@ -1,4 +1,4 @@
-package org.minermc.minerMCGlobalBoost;
+package org.minermc.minerMCGlobalBoost.command;
 
 import org.bukkit.ChatColor;
 import org.bukkit.command.Command;
@@ -7,6 +7,7 @@ import org.bukkit.command.CommandSender;
 import org.bukkit.command.TabCompleter;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
+import org.minermc.minerMCGlobalBoost.MinerMCGlobalBoost;
 
 import java.util.ArrayList;
 import java.util.Arrays;

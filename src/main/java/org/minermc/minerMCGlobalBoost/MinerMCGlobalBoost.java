@@ -2,6 +2,14 @@ package org.minermc.minerMCGlobalBoost;
 
 import org.bukkit.ChatColor;
 import org.bukkit.plugin.java.JavaPlugin;
+import org.minermc.minerMCGlobalBoost.command.BoostCommand;
+import org.minermc.minerMCGlobalBoost.command.GiveBoostCommand;
+import org.minermc.minerMCGlobalBoost.command.UseBoostCommand;
+import org.minermc.minerMCGlobalBoost.listener.BlockBreakListener;
+import org.minermc.minerMCGlobalBoost.listener.PlayerJoinListener;
+import org.minermc.minerMCGlobalBoost.manager.BossBarManager;
+import org.minermc.minerMCGlobalBoost.manager.BoostInventory;
+import org.minermc.minerMCGlobalBoost.task.BoostTimer;
 
 public final class MinerMCGlobalBoost extends JavaPlugin {
 
